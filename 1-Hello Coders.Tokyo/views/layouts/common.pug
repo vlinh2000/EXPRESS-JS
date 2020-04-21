@@ -9,10 +9,18 @@ html
       a.navbar-brand(href='#') Coders.Tokyo
       button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarNavAltMarkup', aria-controls='navbarNavAltMarkup', aria-expanded='false', aria-label='Toggle navigation')
         span.navbar-toggler-icon
-      #navbarNavAltMarkup.collapse.navbar-collapse
-        .navbar-nav
-          a.nav-item.nav-link.active(href='#') Home 
-          a.nav-item.nav-link(href='#') Features
+      #navbarNav.collapse.navbar-collapse
+        ul.navbar-nav
+          li.nav-item
+            a.nav-link.active(href='#') Home 
+          li.nav-item
+            a.nav-link(href='#') Features
+      if user
+        p=user.name
+    
+    
+      
+
     .container.mt-5
      block content
 

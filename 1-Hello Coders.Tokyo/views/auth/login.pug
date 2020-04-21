@@ -1,0 +1,20 @@
+extends ../layouts/common.pug
+ 
+block content
+
+ h1.text-danger Login
+
+
+ if errors
+  each err in errors
+   .alert.alert-danger= err
+
+
+ form(action='/auth/login' method='POST')
+  .form-group
+   label(for="email") Email
+   input#email(type='text' name='email' class='form-control' , value=values ? values.email : '')
+  .form-group
+   label(for="password") Pass Word
+   input#password(type='password' name='password' class='form-control' , value=values ? values.password : '')
+  button(class='btn btn-dark ml-2') login

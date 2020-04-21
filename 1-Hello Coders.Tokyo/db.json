@@ -1,85 +1,18 @@
 {
   "user": [
     {
-      "name": "hihi",
-      "id": "qrQxdM0xr"
-    },
-    {
-      "name": "linh",
-      "id": "QecPxnmtJ"
-    },
-    {
-      "name": "ddsa",
-      "id": "mZc0bMZWA"
-    },
-    {
       "name": "truong viet linh",
-      "id": "oYEj76MAL"
-    },
-    {
-      "name": "vo hoang yen",
       "phone": "32323213231",
-      "id": "oAm_IviUm"
+      "id": "oYEj76MAL",
+      "email": "vietlinhst2013@gmail.com",
+      "password": "4297f44b13955235245b2497399d7a93"
     },
     {
-      "name": "",
-      "phone": "",
-      "id": "-yu5a_YrT"
-    },
-    {
-      "name": "vzv",
-      "phone": "54354353",
-      "id": "VZUsSHdNC"
-    },
-    {
-      "name": "linh",
-      "phone": "hi",
-      "id": "2bVBKvvYh"
-    },
-    {
-      "name": "vo ngoc",
-      "phone": "32323213231",
-      "id": "sCxbaCblN"
-    },
-    {
-      "name": " sa",
-      "phone": " ",
-      "id": "zK9zShImX"
-    },
-    {
-      "name": " sa",
-      "phone": " ",
-      "id": "LyvGWTnQJ"
-    },
-    {
-      "name": " ",
-      "phone": " ",
-      "id": "QY-7pSEx-"
-    },
-    {
-      "name": " ",
-      "phone": " ",
-      "id": "m0_hqtwc2"
-    },
-    {
-      "name": " ",
-      "phone": " ",
-      "id": "RfOPurPoy"
-    },
-    {
-      "name": " sa",
-      "phone": " jg",
-      "id": "f6f4zpc8s"
-    },
-    {
-      "name": " jh",
-      "phone": " ",
-      "id": "RoBuJTvQK"
-    },
-    {
-      "name": " ",
-      "phone": " ",
-      "id": "6h0rh69kZ"
+      "name": "truong viet nam",
+      "phone": "3233232",
+      "id": "dasdsadsa",
+      "email": "vietlinhst2013@gmail.com",
+      "password": "4297f44b13955235245b2497399d7a93"
     }
   ]
 }

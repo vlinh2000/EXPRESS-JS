@@ -17,24 +17,11 @@ module.exports.search=function(req,res){
 
 module.exports.create=function(req,res){
 	res.render('user/create');
+
 };
 
 module.exports.postCreate=function(req,res){
 req.body.id=shortid.generate();
-var errors=[];
-if(!req.body.name){
-	errors.push("Name is required");
-}
-if(!req.body.phone){
-	errors.push("Phone is required");
-}
-if(errors.length){
-	res.render('user/create',{
-	error: errors,
-	values: req.body
-	});
-	return;
-}
 db.get('user').push(req.body).write();
 res.redirect('/user');
 };
