@@ -22,6 +22,12 @@ module.exports.create=function(req,res){
 
 module.exports.postCreate=function(req,res){
 req.body.id=shortid.generate();
+if(req.file)
+{
+	req.body.avatar=req.file.path.split("\\").slice(1).join('/');
+}
+
+
 db.get('user').push(req.body).write();
 res.redirect('/user');
 };
