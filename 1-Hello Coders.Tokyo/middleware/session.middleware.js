@@ -12,5 +12,8 @@ if(!req.signedCookies.sessionID){
    	cart: {}
    }).write();
 }
+var sessionID=req.signedCookies.sessionID;
+var cart= db.get('sessionID').find({id:sessionID}).get('cart').value();
+res.locals.cart=cart;
 next();
 }

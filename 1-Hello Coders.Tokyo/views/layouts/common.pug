@@ -1,6 +1,7 @@
 html
   head
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
 
 
   
@@ -15,6 +16,11 @@ html
             a.nav-link.active(href='#') Home 
           li.nav-item
             a.nav-link(href='#') Features
+      
+      
+      i.zmdi.zmdi-shopping-cart.zmdi-hc-lg.d-flex.mr-3.text-danger
+       if cart
+         p.ml-2.text-dark=cart.total 
       if user
         p=user.name
     
